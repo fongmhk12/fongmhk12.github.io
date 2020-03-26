@@ -1,0 +1,29 @@
+body {background-color: yellow;}
+h1 {text-align: center; color: red;}
+h2 { text-align: right; 
+     color: blue; 
+     font-style: italic;}
+.redyellow { background-color: yellow;  color: red; } 
+.abigfont { font-weight: bold; font-style: italic; font-size: 50px; }
+.redfont, .my-class { color: red;}
+
+h3 { text-align: right; color: red;}
+
+
+/*need to visit*/
+
+table {border-collapse: collapse;}
+td { font-weight: bold; height: 50px; text-align: center;
+  vertical-align: center;}
+
+@keyframes myfirst
+{
+from {background: cyan;}
+to {background: green;}
+}
+
+#header
+{
+animation: myfirst 5s 1 forwards;
+} 
+
